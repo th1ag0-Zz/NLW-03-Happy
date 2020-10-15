@@ -15,30 +15,6 @@ body, input, button, textarea {
 body {
     height: 100vh;
     color: white;
+    background: #ebf2f5;
 }
 
-#logo {
-    animation-delay: 50ms;
-}
-
-.location {
-    animation-delay: 100ms;
-}
-
-
-main h1 {
-    animation-delay: 150ms;
-}
-
-.visit p {
-    animation-delay: 200ms;
-}
-
-.visit a {
-    animation-delay: 250ms;
-    transition: background .2s;
-}
-
-.visit a:hover {
-    background: #96feff;
-}
