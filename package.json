@@ -1,0 +1,16 @@
+{
+  "name": "NLW-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/th1ag0-Zz/NLW-3.git",
+  "author": "thiag0-Zz <thiagof89.tf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}
