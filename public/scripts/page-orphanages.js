@@ -1,4 +1,4 @@
-const map = L.map('mapid').setView([-2.5108731,-44.2594127], 15);
+const map = L.map('mapid').setView([-2.5108731,-44.2594127], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
 .addTo(map);
@@ -19,7 +19,7 @@ function addMarker({name, id, lat, lng}) {
         className: 'map-popup',
         minWidth: 240,
         minHeight: 240
-    }).setContent(`${name} <a href="/orphanage?id=${id}" <img src="/images/arrow-white.svg"> </a>`)
+    }).setContent(`${name} <a href="/orphanage?id=${id}"> <img src="/images/arrow-white.svg"> </a>`)
 
     L.marker([lat, lng], { icon })
     .addTo(map)
@@ -29,10 +29,10 @@ function addMarker({name, id, lat, lng}) {
 
 const orphanagesSpan = document.querySelectorAll('.orphanages span')
 
-orphanagesSpan.forEach( span => {
+orphanagesSpan.forEach( (span) => {
     const orphanage = {
-        id: span.dataset.id,
         name: span.dataset.name,
+        id: span.dataset.id,
         lat: span.dataset.lat,
         lng: span.dataset.lng
     }

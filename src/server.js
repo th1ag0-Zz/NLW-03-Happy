@@ -1,4 +1,4 @@
-const { response } = require('express')
+//const { response } = require('express')
 // dependencias
 const express = require('express')
 const server = express()
@@ -7,6 +7,9 @@ const pages = require('./pages.js')
 
 // servidor
 server
+
+.use(express.urlencoded({ extended: true }))
+
 .use(express.static('public'))
 
 // configurar TemplateEngine
@@ -18,5 +21,6 @@ server
 .get('/orphanage', pages.orphanage)
 .get('/orphanages', pages.orphanages)
 .get('/create-orphanage', pages.createOrphanage)
+.post('/save-orphanage', pages.saveOrphanage)
 
 server.listen(5500)
