@@ -1,14 +1,18 @@
+<h1 align="center">
+    <img alt="Happy" title="Happy" src=".github/logo.svg" />
+</h1>
+
 <p align="center">
   <img alt="Happy" src=".github/print.png" width="100%">
 </p>
 
-## Sobre o projeto:
+## :question: Sobre o projeto:
 
 O Happy é um projeto desenvolvido na semana do dia das crianças para ajudar na localização de Casas de Acolhimento para crianças.
 
 Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, realizada pela **[Rocketseat](https://www.rocketseat.com.br)**.
 
-## Tecnologias usadas:
+## :umbrella: Tecnologias usadas:
 
 Esse projeto foi desenvolvido utilizando essas principais tecnologias:
 
@@ -17,7 +21,7 @@ Esse projeto foi desenvolvido utilizando essas principais tecnologias:
 * [SQLite](https://www.sqlite.org/index.html)
 * [handlebars](https://handlebarsjs.com/)
 
-## Layout:
+## :pizza: Layout:
 
 Você poderá visualizar os layouts do projeto através dos links abaixo:
 
